@@ -37,8 +37,11 @@ public class WebDriverutilies {
 		a.dragAndDrop(src,dest).perform();
 	}
 	
-	public void alertpopup(WebDriver driver) {
+	public void alertpopupaccept(WebDriver driver) {
 		driver.switchTo().alert().accept();
+	}
+	public void alertpopupdismiss(WebDriver driver) {
+		driver.switchTo().alert().dismiss();
 	}
 	
 	public void switchframe(WebDriver driver) {

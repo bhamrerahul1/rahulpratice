@@ -16,6 +16,8 @@ public class StepGroup {
 	public PropertyFile pdata=new PropertyFile();
 	public WebDriverutilies driverutilies=new WebDriverutilies();
 	
+	
+	
 	@BeforeMethod
 	public void openApp() throws IOException {
 	WebDriverManager.chromedriver().setup();

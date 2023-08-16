@@ -14,8 +14,8 @@ public class SkillraryDemoLogin {
 	private WebElement seleniumtraining;
 	
 	@FindBy(name="addresstype")
-	private WebElement coursedd;
-	
+	private WebElement coursedd; 
+	 
 	
 	
 	public WebElement getCoursedd() {

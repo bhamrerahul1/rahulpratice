@@ -17,13 +17,15 @@ public class Testcase1 extends StepGroup{
 	
 	SkillraryDemoLogin sd=new SkillraryDemoLogin(driver);
 	driverutilies.switchTabs(driver);
+	     
 	driverutilies.mouseHover(driver,sd.getCoursetab());
 	sd.seleniumtraiingbtn();
 	
 	Addtocart ad=new Addtocart(driver);
 	driverutilies.doubleClick(driver,ad.getAddbtn());
 	ad.addtocartbutton();
-	driverutilies.alertpopup(driver);
+	driverutilies.alertpopupaccept(driver);
 	}
 
 }
+ 
